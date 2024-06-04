@@ -1,0 +1,40 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Viewbar{
+    background-color: #333333;
+    width: 1350px;
+    height: 65px;
+
+}
+.Viewbar img{
+    float: left;
+    padding: 0px 20px;
+}
+.Viewbar button{
+    background-color: #222222;
+    color: gray;
+    padding: 22px;
+    font-size: 17px;
+    border: none;
+
+}
+.SloganContainer{
+    background-color: aqua;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 23px;
+    padding: 25px 0;
+}
+.Portfolio{
+    background-color: #161C2E;
+}
+.Container{
+    background-color: gray;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+
