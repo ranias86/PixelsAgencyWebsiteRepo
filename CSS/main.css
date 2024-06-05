@@ -1,11 +1,13 @@
-body{
+*{
+    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
 }
+/* Top Bar */
 .Viewbar{
     background-color: #333333;
     width: 1350px;
     height: 65px;
-
 }
 .Viewbar img{
     float: left;
@@ -17,24 +19,85 @@ body{
     padding: 22px;
     font-size: 17px;
     border: none;
+}
+
+/*  Section 1 - Home  */
+.CLR{
+    clear: both;
+}
+.Home{
+    background-image: url(../images/slider_1.jpg);
+
+    height: 550px;
+}
+.Container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.LeftButton{
+    padding-left: 70px;
+    width: 40%;
+    text-align: left;
+    float: left;
+    font-size: 20px;
 
 }
+.LeftButton a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.Navbar{
+    width: 40%;
+    text-align: right;
+    float: right;
+}
+.Navbar ul{
+    list-style-type:none;
+}
+.Navbar ul li{
+    padding: 0px 10px;
+    float: left;
+}
+.Navbar ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.Info h1{
+    padding-top: 230px;
+    font-size: 70px;
+}
+.Info p{
+    padding-top: 20px;
+}
+.Info button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+}
+
+/* Section 2 - Slogan */
 .SloganContainer{
-    background-color: aqua;
     width: 80%;
     margin: auto;
     text-align: center;
     font-size: 23px;
-    padding: 25px 0;
+    padding: 50px 0;
 }
+
+/* Section 3 - Portfolio  */
 .Portfolio{
     background-color: #161C2E;
+    height: 600px;
 }
-.Container{
-    background-color: gray;
-    width: 80%;
-    margin: auto;
-    text-align: center;
-
-}
-
