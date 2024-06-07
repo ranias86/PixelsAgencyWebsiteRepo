@@ -1,10 +1,10 @@
 *{
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
 }
 /* Top Bar */
-.Viewbar{
+/* .Viewbar{
     background-color: #333333;
     width: 1350px;
     height: 65px;
@@ -19,16 +19,18 @@
     padding: 22px;
     font-size: 17px;
     border: none;
-}
+} */
 
 /*  Section 1 - Home  */
 .CLR{
     clear: both;
 }
+body{
+    height: 550px;
+}
 .Home{
     background-image: url(../images/slider_1.jpg);
-
-    height: 550px;
+    height: 100%;
 }
 .Container{
     width: 90%;
@@ -99,5 +101,211 @@
 /* Section 3 - Portfolio  */
 .Portfolio{
     background-color: #161C2E;
-    height: 600px;
+    height: 700px;
 }
+.P-IMG {
+    width: 50%;
+    background-image: url(../images/slider_7.jpg);
+    background-size: cover;
+    height: 100%;
+    float: left;
+}
+.P-Content{
+    width: 50%;
+    float: right;
+    color: white;
+}
+.P-ContentContainer{
+    width: 70%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.P-ContentContainer p{
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    margin-top: 30px;
+}
+.P-ContentContainer h3{
+    font-size: 30px;
+    padding: 10px 0 ;
+}
+
+.CaseStudyBtn{
+    margin-top: 60px;
+    padding: 15px 40px;
+    border-radius: 50px;
+    border-style:solid;
+    border-color: #3D4955;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+.ViewAllBtn{
+    margin-top: 10px;
+    padding: 15px 40px ;
+    border-radius: 50px;
+    border-style: none;
+    border-color: white;
+    background-color: rgb(244, 189, 0);
+    color: white;
+    font-size: 18px;
+}
+
+/* Team */
+.Team{
+    background-color: #161C2E;
+    height: 700px;
+}
+.T-IMG {
+    width: 50%;
+    background-image: url(../images/slider_6.jpg);
+    background-size: cover;
+    height: 100%;
+    float: right;
+}
+.T-Content{
+    width: 50%;
+    float: right;
+    color: white;
+}
+.T-ContentContainer{
+    width: 70%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.T-ContentContainer p{
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    margin-top: 30px;
+}
+.T-ContentContainer h3{
+    font-size: 30px;
+    padding: 10px 0 ;
+}
+
+/* Services */
+.Services{
+    background-color: #161C2E;
+    height: 700px;
+}
+.S-IMG {
+    width: 50%;
+    background-image: url(../images/slider_2.jpg);
+    background-size: cover;
+    height: 100%;
+    float: left;
+}
+.S-Content{
+    width: 50%;
+    float: right;
+    color: white;
+}
+.S-ContentContainer{
+    width: 90%;
+    margin: auto;
+    padding: 60px 0;
+    
+}
+
+.PBefore{
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    margin: 30px 0 0 40px;
+
+}
+.S-ContentContainer h3{
+    font-size: 30px;
+    margin: 10px 0 40px 40px;
+}
+.Head1 span{
+    font-size: 70px;
+    color: #222839;
+    float: left;
+}
+.Head1 h4{
+    font-size: 24px;
+}
+.Head1 p{
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.Head1{
+    width: 50%;
+    float: left;
+}
+.Head2{
+    width: 50%;
+    float: left;
+}
+
+.Head2 span{
+    font-size: 70px;
+    color: #222839;
+    float: left;
+}
+.Head2 h4{
+    font-size: 24px;
+}
+.Head2 p{
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.Head3 span{
+    font-size: 70px;
+    color: #222839;
+    float: left;
+}
+.Head3 h4{
+    font-size: 24px;
+}
+.Head3 p{
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.Head3{
+    margin-top: 30px;
+    width: 50%;
+    float: left;
+}
+.Head4{
+    margin-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+.Head4 span{
+    font-size: 70px;
+    color: #222839;
+    float: left;
+
+}
+.Head4 h4{
+    font-size: 24px;
+
+}
+.Head4 p{
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.SeeAllServicesBtn {
+    margin: 60px 40px;
+    padding: 15px 40px;
+    border-radius: 50px;
+    border-style:solid;
+    border-color: #3D4955;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+
