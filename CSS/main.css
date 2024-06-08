@@ -26,7 +26,7 @@
     clear: both;
 }
 body{
-    height: 550px;
+    height: 34.375rem;
 }
 .Home{
     background-image: url(../images/slider_1.jpg);
@@ -101,7 +101,7 @@ body{
 /* Section 3 - Portfolio  */
 .Portfolio{
     background-color: #161C2E;
-    height: 700px;
+    height: 43.75rem;
 }
 .P-IMG {
     width: 50%;
@@ -155,7 +155,7 @@ body{
 /* Team */
 .Team{
     background-color: #161C2E;
-    height: 700px;
+    height: 43.75rem;
 }
 .T-IMG {
     width: 50%;
@@ -188,7 +188,7 @@ body{
 /* Services */
 .Services{
     background-color: #161C2E;
-    height: 700px;
+    height: 43.75rem;
 }
 .S-IMG {
     width: 50%;
@@ -309,3 +309,109 @@ body{
     font-size: 18px;
 }
 
+/*  Section 4 - Testimonial */
+.TestimonialContainer{
+    width: 90%;
+    height: 20rem;
+    margin: auto;
+    margin-bottom: 72px;
+}
+.TestimonialLeft {
+    margin-top: 72px;
+    width: 50%;
+    float: left;
+
+}
+.TestimonialLeft img{
+    float: left;
+    border-radius: 50%;
+    width: 20%;
+}
+.LeftQuote{
+    color: #A8AFB4;
+    margin-left: 170px;
+    margin-right: 30px;
+    line-height: 30px;
+}
+.LeftQuoteName{
+    color: #A8AFB4;
+    margin-left: 170px;
+    font-style: italic;
+}
+.TestimonialRight {
+    width: 50%;
+    float: right;
+}
+.TestimonialRight img{
+    border-radius: 50%;
+    width: 20%;
+    float: left;
+}
+.RightQuote{
+    color: #A8AFB4;
+    margin-left: 170px;
+    margin-right: 30px;
+    line-height: 30px;
+}
+.RightQuoteName{
+    color: #A8AFB4;
+    margin-left: 170px;
+    font-style: italic;
+}
+
+/* Section 5 - Page Footer  */
+.Footer{
+    background-color: #F4BD00;
+    height: 25rem;
+    padding-top: 70px;
+}
+.FContainer{
+    width: 80%;
+    margin: auto;
+}
+
+.FAboutUS{
+    width: 33.3%;
+    float: left;
+}
+.FAboutUS h3{
+    padding: 10px 0;
+}
+.FAboutUS p{
+    color: rgba(0, 0, 0, .5);
+    line-height: 25px;
+    padding-bottom: 20px;
+
+}
+.FAboutUS button{
+    padding: 5px 15px;
+    border-radius: 50px;
+    border-style:solid;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+}
+.FServices{
+    width: 33.3%;
+    float: left;
+}
+.FServices h3{
+    padding: 10px 0;
+    margin-left: 40px;
+}
+.FServices ul{
+    list-style-type:none;
+}
+.FServices ul li a{
+    text-decoration: none;
+    line-height: 35px;
+    color: rgba(0, 0, 0, .5);
+}
+.FConnect{
+    width: 33.3%;
+    float: left;
+}
+.FConnect h3{
+    padding: 10px 0;
+}
