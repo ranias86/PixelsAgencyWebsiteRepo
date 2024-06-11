@@ -1,38 +1,34 @@
-*{
+
+@font-face {
+    font-family: Rubik-Bold;
+    src: url(../Fonts/Rubik-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../Fonts/Rubik-Regular.ttf);
+}
+* {
     box-sizing: border-box;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* To calculate padding from the same size of width not additional. */
+    font-family: Rubik-Regular;
     margin: 0px;
 }
-/* Top Bar */
-/* .Viewbar{
-    background-color: #333333;
-    width: 1350px;
-    height: 65px;
-}
-.Viewbar img{
-    float: left;
-    padding: 0px 20px;
-}
-.Viewbar button{
-    background-color: #222222;
-    color: gray;
-    padding: 22px;
-    font-size: 17px;
-    border: none;
-} */
-
 /*  Section 1 - Home  */
-.CLR{
+.CLR {
     clear: both;
 }
-body{
-    height: 34.375rem;
+
+body {
+    height: auto;
 }
-.Home{
+
+.Home {
     background-image: url(../images/slider_1.jpg);
-    height: 100%;
+    background-size: cover;
+    height: 100vh;
 }
-.Container{
+
+.Container {
     width: 90%;
     margin: auto;
     text-align: center;
@@ -41,44 +37,50 @@ body{
     margin-bottom: 40px;
 }
 
-.LeftButton{
-    padding-left: 70px;
+.LeftButton {
     width: 40%;
     text-align: left;
     float: left;
     font-size: 20px;
-
 }
-.LeftButton a{
+
+.LeftButton a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-.Navbar{
-    width: 40%;
+
+.Navbar {
+    width: 35%;
     text-align: right;
     float: right;
 }
-.Navbar ul{
-    list-style-type:none;
+
+.Navbar ul {
+    list-style-type: none;
 }
-.Navbar ul li{
+
+.Navbar ul li {
     padding: 0px 10px;
     float: left;
 }
-.Navbar ul li a{
+
+.Navbar ul li a {
     text-decoration: none;
     color: white;
-    
+
 }
-.Info h1{
+
+.Info h1 {
     padding-top: 230px;
     font-size: 70px;
 }
-.Info p{
+
+.Info p {
     padding-top: 20px;
 }
-.Info button{
+
+.Info button {
     margin-top: 20px;
     padding: 15px 30px;
     border-radius: 30px;
@@ -90,60 +92,63 @@ body{
 }
 
 /* Section 2 - Slogan */
-.SloganContainer{
+.SloganContainer {
     width: 80%;
     margin: auto;
     text-align: center;
     font-size: 23px;
     padding: 50px 0;
+    font-family: Rubik-Bold;
+    font-weight: 900;
 }
 
 /* Section 3 - Portfolio  */
-.Portfolio{
+.Portfolio {
     background-color: #161C2E;
-    height: 43.75rem;
+    height: auto;
 }
+
 .P-IMG {
     width: 50%;
     background-image: url(../images/slider_7.jpg);
     background-size: cover;
-    height: 100%;
+    height: 43.75rem;
     float: left;
 }
-.P-Content{
+
+.P-Content {
     width: 50%;
     float: right;
     color: white;
 }
-.P-ContentContainer{
+
+.P-ContentContainer {
     width: 70%;
     margin: auto;
     padding: 60px 0;
 }
-
-.P-ContentContainer p{
+.P-ContentContainer p {
     color: rgba(255, 255, 255, .5);
     font-size: 18px;
     margin-top: 30px;
 }
-.P-ContentContainer h3{
+.P-ContentContainer h3 {
     font-size: 30px;
-    padding: 10px 0 ;
+    padding: 10px 0;
 }
-
-.CaseStudyBtn{
+.CaseStudyBtn {
     margin-top: 60px;
     padding: 15px 40px;
     border-radius: 50px;
-    border-style:solid;
+    border-style: solid;
     border-color: #3D4955;
     background-color: transparent;
     color: white;
     font-size: 18px;
 }
-.ViewAllBtn{
+.ViewAllBtn {
     margin-top: 10px;
-    padding: 15px 40px ;
+    padding: 15px 40px;
     border-radius: 50px;
     border-style: none;
     border-color: white;
@@ -151,158 +156,95 @@ body{
     color: white;
     font-size: 18px;
 }
-
 /* Team */
-.Team{
+.Team {
     background-color: #161C2E;
-    height: 43.75rem;
+    height: auto;
 }
 .T-IMG {
     width: 50%;
     background-image: url(../images/slider_6.jpg);
     background-size: cover;
-    height: 100%;
+    height: 43.75rem;
     float: right;
 }
-.T-Content{
+.T-Content {
     width: 50%;
     float: right;
     color: white;
 }
-.T-ContentContainer{
+.T-ContentContainer {
     width: 70%;
     margin: auto;
     padding: 60px 0;
 }
-
-.T-ContentContainer p{
+.T-ContentContainer p {
     color: rgba(255, 255, 255, .5);
     font-size: 18px;
     margin-top: 30px;
 }
-.T-ContentContainer h3{
+.T-ContentContainer h3 {
     font-size: 30px;
-    padding: 10px 0 ;
+    padding: 10px 0;
 }
 
 /* Services */
-.Services{
+.Services {
     background-color: #161C2E;
-    height: 43.75rem;
+    height: auto;
 }
 .S-IMG {
     width: 50%;
     background-image: url(../images/slider_2.jpg);
     background-size: cover;
-    height: 100%;
+    height: 44.75rem;
     float: left;
 }
-.S-Content{
+.S-Content {
     width: 50%;
     float: right;
     color: white;
 }
-.S-ContentContainer{
+.S-ContentContainer {
     width: 90%;
     margin: auto;
     padding: 60px 0;
-    
 }
-
-.PBefore{
+.PBefore {
     color: rgba(255, 255, 255, .5);
     font-size: 18px;
     margin: 30px 0 0 40px;
-
 }
-.S-ContentContainer h3{
+.S-ContentContainer h3 {
     font-size: 30px;
     margin: 10px 0 40px 40px;
 }
-.Head1 span{
+.Head1 h4, .Head2 h4, .Head3 h4, .Head4 h4 {
+    font-size: 24px;
+}
+.Head1 span, .Head2 span, .Head3 span, .Head4 span {
     font-size: 70px;
     color: #222839;
     float: left;
 }
-.Head1 h4{
-    font-size: 24px;
-}
-.Head1 p{
+.Head1 p, .Head2 p, .Head3 p, .Head4 p {
     color: rgba(255, 255, 255, .5);
     font-size: 18px;
     margin-top: 15px;
     margin-left: 40px;
 }
-.Head1{
+.Head1, .Head2, .Head3, .Head4  {
     width: 50%;
     float: left;
 }
-.Head2{
-    width: 50%;
-    float: left;
-}
-
-.Head2 span{
-    font-size: 70px;
-    color: #222839;
-    float: left;
-}
-.Head2 h4{
-    font-size: 24px;
-}
-.Head2 p{
-    color: rgba(255, 255, 255, .5);
-    font-size: 18px;
-    margin-top: 15px;
-    margin-left: 40px;
-}
-.Head3 span{
-    font-size: 70px;
-    color: #222839;
-    float: left;
-}
-.Head3 h4{
-    font-size: 24px;
-}
-.Head3 p{
-    color: rgba(255, 255, 255, .5);
-    font-size: 18px;
-    margin-top: 15px;
-    margin-left: 40px;
-}
-.Head3{
+.Head3, .Head4 {
     margin-top: 30px;
-    width: 50%;
-    float: left;
 }
-.Head4{
-    margin-top: 30px;
-    width: 50%;
-    float: left;
-}
-
-.Head4 span{
-    font-size: 70px;
-    color: #222839;
-    float: left;
-
-}
-.Head4 h4{
-    font-size: 24px;
-
-}
-.Head4 p{
-    color: rgba(255, 255, 255, .5);
-    font-size: 18px;
-    margin-top: 15px;
-    margin-left: 40px;
-}
-
 .SeeAllServicesBtn {
-    margin: 60px 40px;
+    margin: 60px 40px 0px;
     padding: 15px 40px;
     border-radius: 50px;
-    border-style:solid;
+    border-style: solid;
     border-color: #3D4955;
     background-color: transparent;
     color: white;
@@ -310,108 +252,381 @@ body{
 }
 
 /*  Section 4 - Testimonial */
-.TestimonialContainer{
+.TestimonialContainer {
     width: 90%;
     height: 20rem;
     margin: auto;
     margin-bottom: 72px;
 }
+
 .TestimonialLeft {
     margin-top: 72px;
     width: 50%;
     float: left;
 
 }
-.TestimonialLeft img{
+
+.TestimonialLeft img {
     float: left;
     border-radius: 50%;
     width: 20%;
 }
-.LeftQuote{
+
+.LeftQuote {
     color: #A8AFB4;
     margin-left: 170px;
     margin-right: 30px;
     line-height: 30px;
 }
-.LeftQuoteName{
+
+.LeftQuoteName {
     color: #A8AFB4;
     margin-left: 170px;
     font-style: italic;
 }
+
 .TestimonialRight {
+    margin-top: 72px;
     width: 50%;
     float: right;
 }
-.TestimonialRight img{
+
+.TestimonialRight img {
     border-radius: 50%;
     width: 20%;
     float: left;
 }
-.RightQuote{
+
+.RightQuote {
     color: #A8AFB4;
     margin-left: 170px;
     margin-right: 30px;
     line-height: 30px;
 }
-.RightQuoteName{
+
+.RightQuoteName {
     color: #A8AFB4;
     margin-left: 170px;
     font-style: italic;
 }
 
 /* Section 5 - Page Footer  */
-.Footer{
+.Footer {
     background-color: #F4BD00;
-    height: 25rem;
+    height:  auto; /* 25rem;*/
     padding-top: 70px;
 }
-.FContainer{
+
+.FContainer {
     width: 80%;
+    height: 25rem;
     margin: auto;
 }
 
-.FAboutUS{
+.FAboutUS {
     width: 33.3%;
     float: left;
 }
-.FAboutUS h3{
+
+.FAboutUS h3 {
     padding: 10px 0;
 }
-.FAboutUS p{
+
+.FAboutUS p {
     color: rgba(0, 0, 0, .5);
     line-height: 25px;
     padding-bottom: 20px;
-
 }
-.FAboutUS button{
+
+.FAboutUS button {
     padding: 5px 15px;
     border-radius: 50px;
-    border-style:solid;
+    border-style: solid;
     border-color: white;
     background-color: transparent;
     color: white;
     font-size: 17px;
 }
-.FServices{
+
+.FServices {
     width: 33.3%;
     float: left;
 }
-.FServices h3{
+
+.FServices h3 {
     padding: 10px 0;
     margin-left: 40px;
 }
-.FServices ul{
-    list-style-type:none;
+
+.FServices ul {
+    list-style-type: none;
 }
-.FServices ul li a{
+
+.FServices ul li a {
     text-decoration: none;
     line-height: 35px;
     color: rgba(0, 0, 0, .5);
 }
-.FConnect{
+
+.FConnect {
     width: 33.3%;
     float: left;
 }
-.FConnect h3{
+
+.FConnect h3 {
     padding: 10px 0;
+}
+
+@media screen and (max-width:600px) {
+     /*  Section 1 - Home  */
+    .Home {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+    .LeftButton {
+        padding-left: 0px;
+    }
+    .Info h1 {
+        padding-top: 230px;
+        font-size: 50px;
+    }
+    .Info button {
+        margin-bottom: 40px;
+    }
+    /* Section 2 - Slogan */
+    .SloganContainer {
+        width: 75%;
+        padding: 0px 0 40px 0;
+    }
+    /* Section 3 - Portfolio  */
+    .Container {
+        width: 70%;
+    }
+
+    .P-IMG {
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    .P-Content {
+        width: 100%;
+    }
+/* Team */
+    .T-IMG {
+        width: 100%;
+        background-size:  100% 100%;
+    }
+    
+    .T-Content {
+        width: 100%;
+    }
+/* Services */
+    .S-IMG {
+        width: 100%;
+        background-size:  100% 100%;
+    }
+    
+    .S-Content {
+        width: 100%;
+    }
+    .S-ContentContainer {
+        width: 100%;
+    }
+    .S-ContentContainer h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 40px;
+    }
+    .Head1, .Head2, .Head3, .Head4{
+        width: 100%;
+        padding-right: 10px;
+        margin-top: 30px;
+    }
+/*  Section 4 - Testimonial */
+    .TestimonialContainer {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .TestimonialLeft {
+        margin-top:10px;
+        width: 100%;
+        margin-bottom:30px;
+    }
+    .TestimonialRight {
+        display:none;
+    }
+    .LeftQuote {
+        color: #A8AFB4;
+        margin-left: 90px;
+        line-height: 30px;
+    }
+    .LeftQuoteName {
+        color: #A8AFB4;
+        margin-left: 90px;
+        font-style: italic;
+    }
+    /* Section 5 - Page Footer  */
+    .Footer {
+        width: 100%;
+        height: 38rem;
+        padding-top: 10px;
+    }
+    .FAboutUS {
+        width: 100%;
+        padding: 10px 0;
+
+    }
+    .FServices {
+        padding-top: 30px;
+        width: 100%;
+    }
+    .FConnect {
+        padding-top: 30px;
+        width: 100%;
+    }
+    .FServices h3 {
+        padding: 0;
+        margin:0;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:1176px) {
+     /*  Section 1 - Home  */
+     .Home {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        margin: auto;
+    }
+    .Container{
+        width:90%;
+    }
+
+    .Navbar{
+        width:10%;
+    }
+    .Info h1 {
+        padding-top: 230px;
+        font-size: 50px;
+    }
+    .Info button {
+        margin-bottom: 40px;
+    }
+    /* Section 2 - Slogan */
+    .SloganContainer {
+        width: 90%;
+        padding: 0px 0 40px 0;
+
+    }
+    /* Section 3 - Portfolio  */
+    .Container {
+        width: 70%;
+    }
+
+    .P-IMG {
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    .P-Content {
+        width: 100%;
+    }
+/* Team */
+    .T-IMG {
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    
+    .T-Content {
+        width: 100%;
+    }
+/* Services */
+    .S-IMG {
+        width: 100%;
+        background-size:  100% 100%;
+    }
+    
+    .S-Content {
+        width: 100%;
+    }
+    .S-ContentContainer {
+        width: 100%;
+    }
+    .S-ContentContainer h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 40px;
+    }
+    /* .Head1, .Head2, .Head3, .Head4{
+        width: 100%;
+        padding-right: 10px;
+        margin-top: 30px;
+    } */
+    .Head1 h4, .Head2 h4, .Head3 h4, .Head4 h4 {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .Head1 span, .Head2 span, .Head3 span, .Head4 span {
+        font-size: 70px;
+        color: #222839;
+        float: left;
+    }
+    .Head1 p, .Head2 p, .Head3 p, .Head4 p {
+        color: rgba(255, 255, 255, .5);
+        font-size: 18px;
+        margin-top: 15px;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    .Head1, .Head2, .Head3, .Head4  {
+        width: 50%;
+        float: left;
+    }
+    /* .Head3, .Head4 {
+        margin-top: 30px;
+    } */
+/*  Section 4 - Testimonial */
+    .TestimonialContainer {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom:0px;
+    }
+    .TestimonialLeft {
+        margin-top:10px;
+        width: 100%;
+        margin-bottom:0px;
+    }
+    .TestimonialRight {
+        display:none;
+    }
+    .LeftQuote {
+        color: #A8AFB4;
+        margin-left: 170px;
+        line-height: 30px;
+    }
+    .LeftQuoteName {
+        color: #A8AFB4;
+        margin-left: 170px;
+        font-style: italic;
+    }
+    /* Section 5 - Page Footer  */
+    .Footer {
+        width: 100%;
+        height: 38rem;
+        padding-top: 10px;
+    }
+    .FAboutUS {
+        width: 100%;
+        padding: 10px 0;
+
+    }
+    .FServices {
+        padding-top: 30px;
+        width: 100%;
+    }
+    .FConnect {
+        padding-top: 30px;
+        width: 100%;
+    }
+    .FServices h3 {
+        padding: 0;
+        margin:0;
+    }
 }
