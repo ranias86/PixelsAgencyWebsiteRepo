@@ -32,7 +32,7 @@ body {
     width: 90%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 35px;
     color: white;
     margin-bottom: 40px;
 }
@@ -42,6 +42,7 @@ body {
     text-align: left;
     float: left;
     font-size: 20px;
+    margin-left: 100px;
 }
 
 .LeftButton a {
@@ -49,8 +50,8 @@ body {
     color: white;
     font-weight: bold;
 }
-
 .Navbar {
+    margin-right: 20px;
     width: 35%;
     text-align: right;
     float: right;
@@ -59,23 +60,18 @@ body {
 .Navbar ul {
     list-style-type: none;
 }
-
 .Navbar ul li {
-    padding: 0px 10px;
+    padding: 0px 15px;
     float: left;
 }
-
 .Navbar ul li a {
     text-decoration: none;
     color: white;
-
 }
-
 .Info h1 {
     padding-top: 230px;
     font-size: 70px;
 }
-
 .Info p {
     padding-top: 20px;
 }
@@ -381,14 +377,14 @@ body {
      /*  Section 1 - Home  */
     .Home {
         width: 100%;
-        height: auto;
+        height: 100vh;
         background-size: cover;
     }
     .LeftButton {
-        padding-left: 0px;
+        margin-left: 10px; 
     }
     .Info h1 {
-        padding-top: 230px;
+        padding-top: 150px;
         font-size: 50px;
     }
     .Info button {
@@ -397,7 +393,7 @@ body {
     /* Section 2 - Slogan */
     .SloganContainer {
         width: 75%;
-        padding: 0px 0 40px 0;
+        padding: 40px 0 40px 0;
     }
     /* Section 3 - Portfolio  */
     .Container {
@@ -468,7 +464,7 @@ body {
     .Footer {
         width: 100%;
         height: 38rem;
-        padding-top: 10px;
+        padding-top: 70px;
     }
     .FAboutUS {
         width: 100%;
@@ -493,10 +489,14 @@ body {
      /*  Section 1 - Home  */
      .Home {
         width: 100%;
-        height: auto;
+        height: 100vh;
         background-size: cover;
         margin: auto;
     }
+    .LeftButton {
+        margin-left: 10px;
+    }
+    
     .Container{
         width:90%;
     }
@@ -514,7 +514,7 @@ body {
     /* Section 2 - Slogan */
     .SloganContainer {
         width: 90%;
-        padding: 0px 0 40px 0;
+        padding: 40px 0 40px 0;
 
     }
     /* Section 3 - Portfolio  */
@@ -610,7 +610,7 @@ body {
     .Footer {
         width: 100%;
         height: 38rem;
-        padding-top: 10px;
+        padding-top: 60px;
     }
     .FAboutUS {
         width: 100%;
